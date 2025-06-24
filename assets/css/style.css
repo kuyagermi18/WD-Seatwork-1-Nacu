@@ -37,14 +37,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 section {
   margin-bottom: 10px;
   border-radius: 25px;
   overflow: hidden;
-  height: 260px;
+  height: 160px;
   padding: 20px 0;
 }
 
