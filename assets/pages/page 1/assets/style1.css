@@ -1,0 +1,73 @@
+/* Reset and base layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #434d47, #3ab873);
+}
+
+/* Make main content flexible to push footer down */
+main {
+  flex: 1;
+  padding: 40px;
+  color: white;
+}
+
+/* Header styling */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jjk {
+  width: 80px;
+  height: auto;
+}
+
+/* Navigation */
+.Menu {
+  display: flex;
+  gap: 20px;
+}
+
+.Menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Menu a:hover {
+  text-decoration: underline;
+}
+
+.right-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Footer stays at the bottom */
+footer {
+  background-color: #c6812d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+}
