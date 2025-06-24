@@ -3,38 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home - Germi James Nacu</title>
-  <link rel="stylesheet" href="./assets/style1.css">
+  <title>Yuta Okkotsu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('./assets/css/img/yutabg.avif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(14, 28, 40, 0.85);
+      padding: 25px 20px;
+      text-align: center;
+      border-bottom: 4px solid #84d4ff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #84d4ff;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #d2f4ff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      position: relative;
+    }
+
+    nav a::after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 0;
+      background: #84d4ff;
+      transition: width 0.3s ease-in-out;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    main {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 40px auto;
+      padding: 40px;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(132, 212, 255, 0.3);
+      flex-grow: 1;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      color: #a7f3ff;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: rgba(14, 28, 40, 0.85);
+      color: #a7f3ff;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.95rem;
+      border-top: 4px solid #84d4ff;
+    }
+  </style>
 </head>
-
 <body>
-  <header class="top-header">
-    <div class="logo">
-      <img src="./assets/yuta2.jpg" alt="jjk" class="jjk" />
-      <h1>Yuta's Site</h1>
-    </div>
 
-    <div class="right-group">
-      <nav class="Menu">
-        <a href="./index.html"><h4>Home</h4></a>
-        <a href="#"><h4>About</h4></a>
-        <a href="#"><h4>Contact</h4></a>
-      </nav>
-      <div class="right-side">
-        <button>Login</button>
-      </div>
-    </div>
+  <header>
+    <h1>Yuta Okkotsu</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="#">Cursed Energy</a>
+      <a href="#">Rika</a>
+      <a href="#">Legacy</a>
+    </nav>
   </header>
 
   <main>
-    <h1>Yuta Okkotsu (乙おっ骨こつ憂ゆう太た Okkotsu Yūta?)</h1>
-    <p><h2></h2>He is a major supporting character in the Jujutsu Kaisen series and the main protagonist of its prequel series, Jujutsu Kaisen 0: Jujutsu High. He was initially a special grade cursed human haunted by his late childhood friend, Rika Orimoto. Satoru Gojo mentored Yuta and enrolled him at Tokyo Jujutsu High.
-
-Yuta was initially a second-year student at Jujutsu High where he works as a jujutsu sorcerer. He was training overseas in Africa with Miguel until after the Shibuya Incident when he returned to Tokyo. By 2035, he became the acting head of the Gojo Clan. </h2></p>
+    <h2>The Special Grade Sorcerer</h2>
+    <p>
+      Yuta Okkotsu is not your average sorcerer. Once consumed by grief and fear, he has transformed into one of Jujutsu High’s most powerful allies. 
+      He shares a deep bond with Rika, a cursed spirit who remained with him even after death.
+    </p>
+    <p>
+      Despite his power, Yuta remains soft-spoken and kind — a reminder that strength doesn’t always roar. His curse is his strength, and his heart is his weapon.
+    </p>
+    <p><strong>“If I can curse someone... I can also protect someone.”</strong></p>
   </main>
 
   <footer>
-    <h3>Germi James Nacu | TC05</h3>
+    &copy; 2025 Germi James Nacu | Yuta Okkotsu - The Gentle Blade
   </footer>
+
 </body>
 </html>
