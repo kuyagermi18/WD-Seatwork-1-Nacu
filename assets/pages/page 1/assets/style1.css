@@ -1,4 +1,4 @@
-/* Reset and base layout */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +11,12 @@ html, body {
   display: flex;
   flex-direction: column;
   background-image: url(./yutabg.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
 }
 
 main {
@@ -23,7 +29,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4CAF50;
+  background-color: #08064a;
   padding: 20px;
   color: white;
 }
@@ -60,9 +66,8 @@ main {
   gap: 20px;
 }
 
-/* Footer stays at the bottom */
 footer {
-  background-color: #c6812d;
+  background-color: #1013aa;
   color: white;
   text-align: center;
   padding: 10px 0;
