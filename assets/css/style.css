@@ -1,4 +1,22 @@
 
+.top-info {
+  text-align: center;
+  background-color: #1546a2;
+  color: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.top-info h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.top-info p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
 
 section {
   margin-bottom: 20px;
@@ -32,7 +50,13 @@ section {
 body {
   margin: 0;
   padding: 10px;
-  background: linear-gradient(to bottom, #1546a2, #22a16c);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
   font-family: 'Times New Roman', sans-serif;
   display: flex;
   justify-content: center;
