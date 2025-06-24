@@ -50,7 +50,7 @@ section {
 body {
   margin: 0;
   padding: 10px;
-  background-image: url(/assets/homebg1.jpeg);
+  background-image: url(./homebg1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
