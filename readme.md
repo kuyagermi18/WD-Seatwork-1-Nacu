@@ -1,18 +1,49 @@
-# Germi Project 1
+# Jujutsu Kaisen Character Showcase
 
-This is a simple web project created by Germi James Nacu.
+This is a personal web project created by **Germi James Nacu** as part of a course requirement or a creative portfolio. It showcases multiple characters from the anime *Jujutsu Kaisen*, with each character having their own uniquely styled webpage.
 
-## Features
+## 📂 Project Structure
+project-root/
+├── index.html # Home page
+├── assets/
+│ ├── css/
+│ │ └── style.css # Main CSS file
+│ ├── images/ # Character images and background assets
+│ └── pages/
+│ ├── page1/ # Yuta's page
+│ │ └── index.html
+│ ├── page2/ # Itadori's page
+│ ├── page3/ # Megumi's page
+│ ├── page4/ # Nobara's page
+│ └── page5/ # Maki's page
 
-- Responsive layout
-- Navigation bar with links
-- Footer with credits
 
-## How to Use
+## 🌐 Features
 
-1. Clone the repository
-2. Open `index.html` in your browser
+- Each character has a dedicated page with unique design and content
+- Responsive layout for viewing on different screen sizes
+- Hover effects, gradient backgrounds, and background images
+- Uses only HTML and CSS
 
-## Author
+## 🚀 Live Demo
 
-Germi James Nacu – BSIT Student
+You can view the live version of the project here:  
+[https://yourusername.github.io/your-repo-name](https://yourusername.github.io/your-repo-name)  
+> *(Replace with your actual GitHub Pages link.)*
+
+## 📸 Characters Featured
+
+- Yuta Okkotsu  
+- Yuji Itadori  
+- Megumi Fushiguro  
+- Nobara Kugisaki  
+- Maki Zenin
+
+## 👨‍💻 Author
+
+**Germi James Nacu**  
+Bachelor of Science in Information Technology – Animation and Game Development  
+FEU Tech
+
+---
+
