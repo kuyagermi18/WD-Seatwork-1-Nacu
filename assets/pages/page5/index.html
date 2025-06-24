@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maki Zenin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #101820;
+      color: #e0f2f1;
+      background-image: url('./assets/makibg.avif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(to right, #0d1b2a, #1b263b);
+      padding: 30px 20px;
+      border-bottom: 4px solid #58e1c1;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #58e1c1;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      margin-right: 25px;
+      text-decoration: none;
+      color: #c9fdd7;
+      font-weight: bold;
+      font-size: 1.1rem;
+      position: relative;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #58e1c1;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: rgba(16, 24, 32, 0.85);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(88, 225, 193, 0.2);
+    }
+
+    .container h2 {
+      font-size: 2.2rem;
+      color: #9af5e4;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #58e1c1;
+      padding-bottom: 10px;
+    }
+
+    .container p {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: #e6fffa;
+    }
+
+    footer {
+      margin-top: auto;
+      background: linear-gradient(to right, #1b263b, #0d1b2a);
+      text-align: center;
+      padding: 20px;
+      color: #a9ffdf;
+      font-size: 0.95rem;
+      border-top: 4px solid #58e1c1;
+    }
+
+    .container:hover {
+      box-shadow: 0 0 40px rgba(88, 225, 193, 0.5);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1>Maki Zenin</h1>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="#">Clan Rebellion</a>
+        <a href="#">Strength</a>
+        <a href="#">Weapons</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Born Without Cursed Energy. Still Stronger Than You.</h2>
+      <p>
+        Maki Zenin defies expectations. Rejected by her clan, she rose with raw skill and relentless willpower. Without cursed energy,
+        she mastered cursed tools, surpassed special grades, and cut through the old ways of the Zenin name.
+      </p>
+      <p>
+        She is the blade in the dark, the one who proves that strength isn’t inherited — it’s earned. 🔥
+      </p>
+      <p><strong>“I’m going to become a sorcerer, and I don’t care who I have to crush to do it.”</strong></p>
+    </div>
+
+    <footer>
+      © 2025 Germi James Nacu | Maki Zenin - The Real Head of the Zenin Clan
+    </footer>
+  </div>
+
+</body>
+</html>

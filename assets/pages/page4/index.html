@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nobara Kugisaki</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #000;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+    }
+
+    /* Background image with dark overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url('./assets/nobarabg.png'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.2;
+      z-index: -1;
+    }
+
+    header {
+      background: linear-gradient(to right, #c31432, #240b36);
+      padding: 25px 20px;
+      text-align: left;
+      border-bottom: 3px solid #ff77aa;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #ffb6d1;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffe3ee;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.7); /* Dark transparent bg */
+      padding: 30px;
+      border-radius: 12px;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 0 15px rgba(255, 119, 170, 0.3);
+      flex: 1;
+    }
+
+    .container h2 {
+      color: #ffc6d9;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .container p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+      color: #fcd8e7;
+    }
+
+    footer {
+      background: linear-gradient(to right, #240b36, #c31432);
+      padding: 15px;
+      text-align: center;
+      color: #ffe3ee;
+      font-size: 0.9rem;
+      border-top: 3px solid #ff77aa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nobara Kugisaki</h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="#">Straw Doll</a>
+      <a href="#">Personality</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Beauty. Strength. Style.</h2>
+    <p>
+      Nobara Kugisaki is a fearless sorcerer with unmatched confidence. She wields her hammer and nails with deadly precision,
+      never sacrificing her style or sense of self. A queen of balance — fierce and fabulous.
+    </p>
+    <p>
+      “I’m Nobara Kugisaki! A grade 3 jujutsu sorcerer, and a pretty girl!” 💅🔨
+    </p>
+  </div>
+
+  <footer>
+    © 2025 Germi James Nacu | Nobara Kugisaki Tribute
+  </footer>
+
+</body>
+</html>
