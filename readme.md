@@ -25,12 +25,6 @@ project-root/
 - Hover effects, gradient backgrounds, and background images
 - Uses only HTML and CSS
 
-## 🚀 Live Demo
-
-You can view the live version of the project here:  
-[https://yourusername.github.io/your-repo-name](https://yourusername.github.io/your-repo-name)  
-> *(Replace with your actual GitHub Pages link.)*
-
 ## 📸 Characters Featured
 
 - Yuta Okkotsu  
@@ -41,7 +35,7 @@ You can view the live version of the project here:
 
 ## 👨‍💻 Author
 
-**Germi James Nacu**  
+**Germi James Nacu **  
 Bachelor of Science in Information Technology – Animation and Game Development  
 FEU Tech
 
