@@ -10,17 +10,15 @@ html, body {
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom right, #434d47, #3ab873);
+  background-image: url(./yutabg.avif);
 }
 
-/* Make main content flexible to push footer down */
 main {
   flex: 1;
   padding: 40px;
   color: white;
 }
 
-/* Header styling */
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -41,7 +39,6 @@ main {
   height: auto;
 }
 
-/* Navigation */
 .Menu {
   display: flex;
   gap: 20px;
