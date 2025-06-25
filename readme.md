@@ -3,20 +3,43 @@
 This is a personal web project created by **Germi James Nacu** as part of a course requirement or a creative portfolio. It showcases multiple characters from the anime *Jujutsu Kaisen*, with each character having their own uniquely styled webpage.
 
 ## 📂 Project Structure
-project-root/
-├── index.html # Home page
+WD-Seatwork-1-Nacu/
+│
+├── index.html
 ├── assets/
-│ ├── css/
-│ │ └── style.css # Main CSS file
-│ ├── images/ # Character images and background assets
-│ └── pages/
-│ ├── page1/ # Yuta's page
-│ │ └── index.html
-│ ├── page2/ # Itadori's page
-│ ├── page3/ # Megumi's page
-│ ├── page4/ # Nobara's page
-│ └── page5/ # Maki's page
-
+│   ├── css/
+│   │   └── style.css
+│   └── img/
+│       ├── jjk2.jpg
+│       ├── itadori.jpg
+│       ├── megumi.jpg
+│       ├── nobara.jpg
+│       └── maki.jpg
+├── pages/
+│   ├── page1/
+│   │   ├── index.html
+│   │   └── assets/
+│   │       ├── css/
+│   │       │   └── style.css
+│   │       └── img/
+│   │           └── yuta pictures
+│   ├── page2/
+│   │   ├── index.html
+│   │   └── img/
+│   │       └── itadori pic
+│   ├── page3/
+│   │   ├── index.html
+│   │   └── img/
+│   │       └── megumi pic
+│   ├── page4/
+│   │   ├── index.html
+│   │   └── img/
+│   │       └── nobara pic
+│   └── page5/
+│       ├── index.html
+│       └── img/
+│           └── maki pic
+└──── readme.md
 
 ## 🌐 Features
 
