@@ -1,8 +1,9 @@
 # Jujutsu Kaisen Character Showcase
 
-This is a personal web project created by **Germi James Nacu** as part of a course requirement or a creative portfolio. It showcases multiple characters from the anime *Jujutsu Kaisen*, with each character having their own uniquely styled webpage.
+This is a personal web project created by **Germi James Nacu** as part of our IT0043 Web Design with Client-Side Scripting. This site showcases multiple characters from the anime *Jujutsu Kaisen*, with each character having their own uniquely styled webpage.
 
 ## 📂 Project Structure
+
 WD-Seatwork-1-Nacu/
 │
 ├── index.html
@@ -58,7 +59,7 @@ WD-Seatwork-1-Nacu/
 
 ## 👨‍💻 Author
 
-**Germi James Nacu **  
+**Germi James Nacu | TC05 **  
 Bachelor of Science in Information Technology – Animation and Game Development  
 FEU Tech
 
