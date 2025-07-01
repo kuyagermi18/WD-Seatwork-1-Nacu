@@ -4,108 +4,147 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Maki Zenin</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #101820;
-      color: #e0f2f1;
-      background-image: url(./img/makibg.avif);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      min-height: 100vh;
-    }
+  html, body {
+    height: 100%;
+    direction: rtl; 
+  }
 
-    .wrapper {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #101820;
+    color: #e0f2f1;
+    background-image: url(./img/makibg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
 
-    header {
-      background: linear-gradient(to right, #0d1b2a, #1b263b);
-      padding: 30px 20px;
-      border-bottom: 4px solid #58e1c1;
-    }
+  .accent-bar {
+    width: 6px;
+    background: #58e1c1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    box-shadow: 0 0 12px rgba(88, 225, 193, 0.6);
+    z-index: 2;
+  }
 
-    header h1 {
-      font-size: 3rem;
-      color: #58e1c1;
-      letter-spacing: 1px;
-    }
+  header {
+    background: linear-gradient(to left, #0d1b2a, #1b263b);
+    padding: 30px 40px;
+    border-bottom: 4px solid #58e1c1;
+    margin-right: 6px;
+    text-align: right;
+  }
 
-    nav {
-      margin-top: 15px;
-    }
+  header h1 {
+    font-size: 3rem;
+    color: #58e1c1;
+    letter-spacing: 1px;
+  }
 
-    nav a {
-      margin-right: 25px;
-      text-decoration: none;
-      color: #c9fdd7;
-      font-weight: bold;
-      font-size: 1.1rem;
-      position: relative;
-    }
+  nav {
+    margin-top: 15px;
+  }
 
-    nav a::after {
-      content: "";
-      position: absolute;
-      bottom: -4px;
-      left: 0;
-      width: 0;
-      height: 2px;
-      background: #58e1c1;
-      transition: 0.3s ease;
-    }
+  nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #c9fdd7;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+  }
 
-    nav a:hover::after {
-      width: 100%;
-    }
+  nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: #58e1c1;
+    transition: 0.3s ease;
+  }
 
-    .container {
-      max-width: 900px;
-      margin: 50px auto;
-      background-color: rgba(16, 24, 32, 0.85);
-      padding: 40px;
-      border-radius: 15px;
-      box-shadow: 0 0 25px rgba(88, 225, 193, 0.2);
-    }
+  nav a:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
 
-    .container h2 {
-      font-size: 2.2rem;
-      color: #9af5e4;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #58e1c1;
-      padding-bottom: 10px;
-    }
+  .content-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 30px;
+  }
 
-    .container p {
-      font-size: 1.15rem;
-      line-height: 1.8;
-      color: #e6fffa;
-    }
+  .container {
+    max-width: 900px;
+    width: 100%;
+    background-color: rgba(16, 24, 32, 0.9);
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 0 30px rgba(88, 225, 193, 0.25);
+    position: relative;
+  }
 
-    footer {
-      margin-top: auto;
-      background: linear-gradient(to right, #1b263b, #0d1b2a);
-      text-align: center;
-      padding: 20px;
-      color: #a9ffdf;
-      font-size: 0.95rem;
-      border-top: 4px solid #58e1c1;
-    }
+  .container::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    left: -10px;
+    bottom: -10px;
+    border: 2px solid rgba(88, 225, 193, 0.3);
+    border-radius: 22px;
+    pointer-events: none;
+    z-index: 0;
+  }
 
-    .container:hover {
-      box-shadow: 0 0 40px rgba(88, 225, 193, 0.5);
-      transition: box-shadow 0.3s ease-in-out;
-    }
-  </style>
+  .container h2 {
+    font-size: 2.2rem;
+    color: #9af5e4;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #58e1c1;
+    padding-bottom: 10px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .container p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #e6fffa;
+    z-index: 1;
+    position: relative;
+    text-align: right;
+  }
+
+  footer {
+    background: linear-gradient(to left, #1b263b, #0d1b2a);
+    text-align: center;
+    padding: 20px;
+    color: #a9ffdf;
+    font-size: 0.95rem;
+    border-top: 4px solid #58e1c1;
+    margin-right: 6px;
+  }
+</style>
+
+
 </head>
 <body>
 

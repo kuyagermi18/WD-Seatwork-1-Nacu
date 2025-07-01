@@ -5,93 +5,95 @@
   <title>Itadori Yuuji</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      color: white;
-      height: 100vh;
-      background: url(./img/yujibg.jpg) no-repeat center center fixed;
-      background-size: cover;
-      position: relative;
-    }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    height: 100vh;
+    background: url(./img/yujibg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+  }
 
+  /* Grid-based header */
+  header {
+    background: rgba(255, 70, 70, 0.9);
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: 3px solid white;
+  }
 
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
 
-    header {
-      background: rgba(255, 70, 70, 0.9);
-      padding: 20px 40px;
-      text-align: left;
-      font-size: 1.5rem;
-      font-weight: bold;
-      letter-spacing: 1px;
-      border-bottom: 3px solid white;
-    }
+  nav {
+    text-align: right;
+  }
 
-    header h1 {
-      margin: 0;
-    }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
 
-    nav {
-      margin-top: 10px;
-    }
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 20px;
-      font-weight: 500;
-    }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+  .container h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #FF6767;
+  }
 
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 10px;
-      backdrop-filter: blur(6px);
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    }
+  .container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ddd;
+  }
 
-    .container h2 {
-      margin-bottom: 10px;
-      font-size: 2rem;
-      color: #FF6767;
-    }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 70, 70, 0.85);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    border-top: 2px solid white;
+  }
+</style>
 
-    .container p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      color: #ddd;
-    }
-
-    footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: rgba(255, 70, 70, 0.85);
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      font-size: 0.9rem;
-      border-top: 2px solid white;
-    }
-  </style>
 </head>
 <body>
 
   <header>
     <h1>Itadori Yuuji</h1>
     <nav>
-      <a href="./index.html">Home</a>
+      <a href="../index.html">Home</a>
       <a href="#">About</a>
       <a href="#">Powers</a>
       <a href="#">JJK</a>
